@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 4em;
+  color: crimson;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 2em;
+  color: crimson;
+}
+
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: crimson;
+
+}
+
+header {
+  background-color: powderblue;
+  padding: 60px 0px 40px 0px;
+  border-bottom: 10px solid crimson;
+  text-align: center;
+  margin: auto;
+}
+
+.planet-image {
+  border: 1px solid crimson;
+  padding: 8px;
+  margin: 8px;
+  background-color: white;
+  border-radius: 80px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.5em;
+  color: blue;
+  text-align: left;
+}
+
+.planets-title {
+  font-size: 1.5em;
+  color: darkcyan;
+  text-align: center;
+}
+
+main {
+  padding: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.caption {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: blue;
+}
+
+table {
+  font-family: 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 15px;
+  font-weight: 900;
+  border: 1px solid crimson;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid crimson;
+}
+
+.invisible-cell {
+  border-top: none;
+  border-left: none;
+}
